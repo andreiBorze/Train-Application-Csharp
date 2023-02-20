@@ -50,7 +50,8 @@ namespace lab8ex1
                 if(v is VagonForPeopleClass1 vagonForPeople1)
                 {
                    vagonForPeople1.StopAirConditioning();
-                   vagonForPeople1.OpenDoors();                }
+                   vagonForPeople1.OpenDoors();
+                }
                 else if(v is VagonForPeople vagonForPeople)
                 {
                     vagonForPeople.OpenDoors();
